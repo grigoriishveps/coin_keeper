@@ -24,9 +24,9 @@ export const HeaderWrapper = styled.header`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 60px 0;
+    padding: 50px 0;
     @media (max-width:600px){   
-        padding: 31px 0;
+        padding: 21px 0;
     }
 `
 
@@ -40,7 +40,8 @@ export const HeaderContainer = styled.div`
 
     @media (max-width:600px){   
         >svg{
-            transform: scale(0.66, 0.66);
+            //transform: scale(0.66, 0.66);
+            width: 167px;
         }
     }
 `
