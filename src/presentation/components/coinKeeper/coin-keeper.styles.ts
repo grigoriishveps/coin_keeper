@@ -24,9 +24,9 @@ export const HeaderWrapper = styled.header`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 50px 0;
+    padding: 50px 0px;
     @media (max-width:600px){   
-        padding: 21px 0;
+        padding: 21px 0px;
     }
 `
 
@@ -37,7 +37,7 @@ export const HeaderContainer = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
-
+    padding: 0 10px;
     @media (max-width:600px){   
         >svg{
             //transform: scale(0.66, 0.66);
@@ -78,6 +78,9 @@ export const CoinKeeperContainer = styled.div`
             margin-bottom:24px;
         }
 
+    }
+    a{
+        text-decoration: none;
     }
     
     h5{
